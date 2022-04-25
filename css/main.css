@@ -1,3 +1,7 @@
+body { /* Default Background Color*/
+    background-color: #F9F9EF;
+}
+
 /* Navbar CSS */
 div.container-fluid { /* center navbar content */
     width: auto; 
@@ -30,3 +34,4 @@ div.container-fluid { /* center navbar content */
 .product-tagline img {
     float: right;
 }
+
