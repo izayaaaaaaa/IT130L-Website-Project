@@ -1,0 +1,32 @@
+/* Navbar CSS */
+div.container-fluid { /* center navbar content */
+    width: auto; 
+}
+
+/* Products Page */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+.product-tagline {
+    background-color: #a7d2cb;
+}
+.product-tagline h1 {
+    /* font-family: 'Lobster', cursive; */
+    color: #874C62;
+    font-size: 400%;
+    text-align: left;
+    padding: 30px;  
+}
+
+.product-tagline p {
+    /* font-family: 'Poppins', sans-serif; */
+    line-height: 0.5;
+    font-size: 150%;
+    text-align: left;
+    padding: 30px; 
+
+}
+
+.product-tagline img {
+    float: right;
+}
