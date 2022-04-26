@@ -9,6 +9,25 @@ div.container-fluid {
     width: auto;
 }
 
+nav {
+    background-color: #874C62;
+}
+
+nav img {
+    height: 50px;
+}
+
+nav .container {
+    position: relative; 
+}
+
+/* company logo is only 1/4 when the screen is big; 1/2 if smaller screens than medium through w-50*/
+@media only screen and (min-width: 768px) {
+    .navbar-brand {
+        width: 25% !important;
+    }
+} 
+
 
 /* Products Page */
 
@@ -78,29 +97,35 @@ div.about-section {
     text-indent: 50px;
     line-height: 1.4;
 }
-.faqimg-fluid img {
-    max-width: 100%;
-    max-height: auto;
 
+/* Test */
+/* @media (min-width: 768px) {
+    
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(25%);
+    }
+    
+    .carousel-inner .carousel-item-start.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-25%);
+    }
 }
 
-.faqs ol {
-    list-style-type: 1;
-    font-family: 'Helvetica', sans-serif;
-    font-size: 2vw;
-    margin-left: 15px;
-    line-height: normal;
-}
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start { 
+  transform: translateX(0);
+} */
 
-.faqs p {
-    font-family: 'Helvetica', sans-serif;
+/* FAQs */
+.list-group-item p {
     color: #646460;
-    margin-right: 15px;
-    margin-left: 15px;
+    padding-left: 4%;
     text-align: justify;
-    font-size: 1.5vw;
+    font-weight: 400;
 }
 
+<<<<<<< HEAD
 .faqsfoot footer {
     background-color: #2F2E2E;
     max-height: 25vw;
@@ -111,3 +136,10 @@ div.about-section {
     font-family: 'Helvetica', sans-serif;
     font-size: 2vw;
 }
+=======
+.list-group-item {
+    background-color: transparent;
+    border: none;
+    font-weight: 700;
+}
+>>>>>>> da035f19cc7b7a5a004112a080c5b2a11e780458
