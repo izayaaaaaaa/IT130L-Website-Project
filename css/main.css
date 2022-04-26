@@ -118,29 +118,15 @@ div.about-section {
 } */
 
 /* FAQs */
-
-/* .faqs ol {
-    list-style-type: 1;
-    font-size: 2vw;
-    margin-left: 15px;
-    line-height: normal;
-}
-
-.faqs p {
+.list-group-item p {
     color: #646460;
-    margin-right: 15px;
-    margin-left: 15px;
+    padding-left: 4%;
     text-align: justify;
-    font-size: 1.5vw;
-} */
-
-/* .faqsfoot footer {
-    background-color: #2F2E2E;
-    max-height: 25vw;
-    max-width: 100%;
-} */
+    font-weight: 400;
+}
 
 .list-group-item {
     background-color: transparent;
     border: none;
+    font-weight: 700;
 }
