@@ -21,6 +21,13 @@ nav .container {
     position: relative; 
 }
 
+/* company logo is only 1/4 when the screen is big; 1/2 if smaller screens than medium through w-50*/
+@media only screen and (min-width: 768px) {
+    .navbar-brand {
+        width: 25% !important;
+    }
+} 
+
 
 /* Products Page */
 
@@ -112,7 +119,7 @@ div.about-section {
 
 /* FAQs */
 
-.faqs ol {
+/* .faqs ol {
     list-style-type: 1;
     font-size: 2vw;
     margin-left: 15px;
@@ -125,10 +132,15 @@ div.about-section {
     margin-left: 15px;
     text-align: justify;
     font-size: 1.5vw;
-}
+} */
 
 /* .faqsfoot footer {
     background-color: #2F2E2E;
     max-height: 25vw;
     max-width: 100%;
 } */
+
+.list-group-item {
+    background-color: transparent;
+    border: none;
+}
