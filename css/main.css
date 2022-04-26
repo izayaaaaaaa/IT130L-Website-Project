@@ -88,6 +88,21 @@ div.about-section {
     list-style-type: 1;
     font-family: 'Helvetica', sans-serif;
     font-size: 2vw;
-    text-indent: 10px;
     margin-left: 15px;
+    line-height: normal;
+}
+
+.faqs p {
+    font-family: 'Helvetica', sans-serif;
+    color: #646460;
+    margin-right: 15px;
+    margin-left: 15px;
+    text-align: justify;
+    font-size: 1.5vw;
+}
+
+.faqsfoot footer {
+    background-color: #2F2E2E;
+    max-height: 25vw;
+    max-width: 100%;
 }
