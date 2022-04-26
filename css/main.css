@@ -106,3 +106,8 @@ div.about-section {
     max-height: 25vw;
     max-width: 100%;
 }
+
+.labtsec1 {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 2vw;
+}
