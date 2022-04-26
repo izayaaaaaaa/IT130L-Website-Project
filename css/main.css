@@ -29,43 +29,88 @@ nav .container {
 } 
 
 /* Landing Page */
-.landbanner img {
-    linear-gradient: (rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+.landbanner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(".images/land banner.gif");
     height: 50%;
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
 }
 .landbanner h1 {
-    color: #ffa600;
+    color: #A7D2CB;
     font-family: 'Lobster', cursive;
     padding: 20px;
-    font-size: 15vw;
+    font-size: 10vw;
+    text-align: center;
 }
 
 .landbanner h2 {
-    color: #ffa600;
+    color: #F8E9C2;
     font-family: 'Lobster', cursive;
     padding: 20px;
-    font-size: 9vw;
+    font-size: 7vw;
+    text-align: center;
 }
 
 .landbanner a {
-    border: none;
+    border: 5px solid #F8E9C2;
     outline: 0;
     display: inline-block;
     padding: 10px 25px;
     font-family: 'Helvetica', sans-serif;
-    color: white;
-    background-color: #ffa600;
+    color: #F8E9C2;
     text-align: center;
     cursor: pointer;
 }
 
 .landbanner a:hover {
-    background-color: #00cbf1;
-    color: white;
+    background-color: ##F8E9C2;
+    color: #A7D2CB;
 }  
+
+.chooseus h1 {
+    color: #A7D2CB;
+    font-family: 'Lobster', cursive;
+    padding: 20px;
+    font-size: 7vw;
+    text-align: center;
+}
+
+.chooseus p {
+    color: #A7D2CB;
+    font-family: 'Helvetica', cursive;
+    padding: 20px;
+    font-size: 3vw;
+    text-align: center;
+}
+
+.showcase {
+    background-color: #F2D388;
+}
+
+.custthink h1 {
+    color: #874C62;
+    font-family: 'Lobster', cursive;
+    padding: 20px;
+    font-size: 7vw;
+    text-align: center;
+}
+
+.questions {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(".images/land banner.gif");
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+}
+
+.questions h2 {
+    color: #F8E9C2;
+    font-family: 'Lobster', cursive;
+    padding: 20px;
+    font-size: 7vw;
+    text-align: center;
+}
 
 
 /* Products Page */
@@ -94,6 +139,11 @@ nav .container {
 
 .product-tagline img {
     float: right;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(".images/land banner.gif");
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
 }
 
 
