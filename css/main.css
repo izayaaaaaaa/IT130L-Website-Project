@@ -132,9 +132,19 @@ div.about-section {
     max-width: 100%;
 }
 
-.labtsec1 {
-    font-family: 'Helvetica', sans-serif;
-    font-size: 2vw;
+.labt h1 {
+    text-align: center;
+    font-size: 5vw;
+    color: #68AEA3;
+}
+.labt table, td{
+    text-align: left;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 10px;
+    font-size: 1.5vw;
+    color: #68AEA3;
+    
 }
 =======
 .list-group-item {
