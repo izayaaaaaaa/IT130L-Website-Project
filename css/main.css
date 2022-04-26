@@ -9,6 +9,18 @@ div.container-fluid {
     width: auto;
 }
 
+nav {
+    background-color: #874C62;
+}
+
+nav img {
+    height: 50px;
+}
+
+nav .container {
+    position: relative; 
+}
+
 
 /* Products Page */
 
@@ -97,22 +109,17 @@ div.about-section {
 .carousel-inner .carousel-item-start { 
   transform: translateX(0);
 } */
-.faqimg-fluid img {
-    max-width: 100%;
-    max-height: auto;
 
-}
+/* FAQs */
 
 .faqs ol {
     list-style-type: 1;
-    font-family: 'Helvetica', sans-serif;
     font-size: 2vw;
     margin-left: 15px;
     line-height: normal;
 }
 
 .faqs p {
-    font-family: 'Helvetica', sans-serif;
     color: #646460;
     margin-right: 15px;
     margin-left: 15px;
@@ -120,8 +127,8 @@ div.about-section {
     font-size: 1.5vw;
 }
 
-.faqsfoot footer {
+/* .faqsfoot footer {
     background-color: #2F2E2E;
     max-height: 25vw;
     max-width: 100%;
-}
+} */
