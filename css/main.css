@@ -78,3 +78,16 @@ div.about-section {
     text-indent: 50px;
     line-height: 1.4;
 }
+.faqimg-fluid img {
+    max-width: 100%;
+    max-height: auto;
+
+}
+
+.faqs ol {
+    list-style-type: 1;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 2vw;
+    text-indent: 10px;
+    margin-left: 15px;
+}
