@@ -28,6 +28,45 @@ nav .container {
     }
 } 
 
+/* Landing Page */
+.landbanner img {
+    linear-gradient: (rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+}
+.landbanner h1 {
+    color: #ffa600;
+    font-family: 'Lobster', cursive;
+    padding: 20px;
+    font-size: 15vw;
+}
+
+.landbanner h2 {
+    color: #ffa600;
+    font-family: 'Lobster', cursive;
+    padding: 20px;
+    font-size: 9vw;
+}
+
+.landbanner a {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    font-family: 'Helvetica', sans-serif;
+    color: white;
+    background-color: #ffa600;
+    text-align: center;
+    cursor: pointer;
+}
+
+.landbanner a:hover {
+    background-color: #00cbf1;
+    color: white;
+}  
+
 
 /* Products Page */
 
@@ -137,6 +176,10 @@ div.about-section {
         width: 60% !important;
     }
 } 
+
+/* Order Page */
+
+
 
 /* Footer CSS */
 footer a {
