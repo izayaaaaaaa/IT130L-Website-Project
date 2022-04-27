@@ -139,20 +139,51 @@ nav .container {
         font-size: 300% !important;
     }
 }
-.questions {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(".images/land banner.gif");
-    height: 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: 100%;
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.product-slideshow {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
 }
 
-.questions h2 {
-    color: #F8E9C2;
-    font-family: 'Lobster', cursive;
-    padding: 20px;
-    text-align: center;
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
 }
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .caption {
+        font-size: 11px
+    }
+  }
 
 /* Products Page */
 
