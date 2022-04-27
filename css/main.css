@@ -1,6 +1,8 @@
-body { /* Default Background Color*/
+body {
+    /* Default Background Color*/
     background-color: #F9F9EF;
 }
+
 
 /* Navbar CSS */
 
@@ -18,17 +20,21 @@ nav img {
 }
 
 nav .container {
-    position: relative; 
+    position: relative;
 }
 
+
 /* company logo is only 1/4 when the screen is big; 1/2 if smaller screens than medium through w-50*/
+
 @media only screen and (min-width: 768px) {
     .navbar-brand {
         width: 25% !important;
     }
-} 
+}
+
 
 /* Landing Page */
+
 .landbanner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(".images/land banner.gif");
     height: 50%;
@@ -36,6 +42,7 @@ nav .container {
     background-size: cover;
     max-width: 100%;
 }
+
 .landbanner h1 {
     color: #A7D2CB;
     font-family: 'Lobster', cursive;
@@ -66,7 +73,7 @@ nav .container {
 .landbanner a:hover {
     background-color: ##F8E9C2;
     color: #A7D2CB;
-}  
+}
 
 .chooseus h1 {
     color: #A7D2CB;
@@ -155,6 +162,7 @@ div.about-section {
     background-color: #f7f5ed;
     margin-left: 20px;
     margin-right: 20px;
+    padding: 5%;
 }
 
 .about-section {
@@ -164,7 +172,7 @@ div.about-section {
 
 .about-section h1 {
     font-family: 'Lobster', cursive;
-    color: #874C62;
+    color: #68AEA3;
     text-align: center;
     font-size: 66px;
 }
@@ -172,7 +180,7 @@ div.about-section {
 .about-section .about-p1 {
     font-family: 'Garamond';
     font-size: 22px;
-    color: #874C62;
+    color: #68AEA3;
     text-align: justify;
     text-indent: 50px;
     line-height: 1.4;
@@ -181,13 +189,39 @@ div.about-section {
 .about-section .about-p2 {
     font-family: 'Garamond';
     font-size: 22px;
-    color: #874C62;
+    color: #68AEA3;
     text-align: justify;
     text-indent: 50px;
     line-height: 1.4;
 }
 
+div.vision-section {
+    background-color: #ffc12385;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5% 2% 5% 2%;
+}
+
+.vision-section h1 {
+    font-family: 'Lobster', cursive;
+    color: #646460;
+    text-align: center;
+    font-size: 66px;
+}
+
+.vision-section p {
+    font-family: 'Garamond';
+    font-size: 22px;
+    color: #4B4B48;
+    text-align: justify;
+    text-indent: 50px;
+    line-height: 1.4;
+}
+
+
 /* Test */
+
+
 /* @media (min-width: 768px) {
     
     .carousel-inner .carousel-item-end.active,
@@ -206,7 +240,9 @@ div.about-section {
   transform: translateX(0);
 } */
 
+
 /* FAQs */
+
 .list-group-item p {
     color: #646460;
     padding-left: 4%;
@@ -225,66 +261,82 @@ div.about-section {
     #faqs img {
         width: 60% !important;
     }
-} 
+}
+
 
 /* Order Page */
 
 
-
 /* Footer CSS */
+
 footer a {
     -webkit-transition: .3s all ease;
     -o-transition: .3s all ease;
-    transition: .3s all ease; 
+    transition: .3s all ease;
 }
-footer a, footer a:hover {
-    text-decoration: none !important; 
+
+footer a,
+footer a:hover {
+    text-decoration: none !important;
 }
 
 .footer-14398 {
     background: #2F2E2E;
-    color: #777; 
+    color: #777;
 }
+
 .footer-14398 .footer-site-logo {
     margin-bottom: 30px;
-    display: block; 
+    display: block;
 }
+
 .footer-14398 h3 {
     color: #fff;
     font-size: 16px;
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
 }
+
 .footer-14398 .links li {
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
 }
+
 .footer-14398 .links li a {
-    color: #999; 
+    color: #999;
 }
+
 .footer-14398 .links li a:hover {
-    color: #fff; 
+    color: #fff;
 }
+
 .footer-14398 .link-menu li {
-    display: inline-block; 
+    display: inline-block;
 }
+
 .footer-14398 .link-menu li a {
     color: #fff;
     display: inline-block;
-    padding: 10px; 
+    padding: 10px;
 }
-.footer-14398 .link-menu.nav-left li:first-child a, .footer-14398 .link-menu.nav-right li:last-child a{
-    padding-left: 0; 
+
+.footer-14398 .link-menu.nav-left li:first-child a,
+.footer-14398 .link-menu.nav-right li:last-child a {
+    padding-left: 0;
 }
+
 .footer-14398 .social li {
-    display: inline-block; 
+    display: inline-block;
 }
+
 .footer-14398 .social li a {
     display: inline-block;
     padding: 10px;
-    color: #ccc; 
+    color: #ccc;
 }
+
 .footer-14398 .social li:last-child a {
-    padding-right: 0; 
+    padding-right: 0;
 }
+
 .footer-14398 .line {
-    border-top: 1px solid rgba(255, 255, 255, 0.2); 
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
