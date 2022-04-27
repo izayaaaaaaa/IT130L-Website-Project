@@ -60,11 +60,11 @@ nav .container {
 
 @media only screen and (min-width: 768px) {
     .landing h1 {
-        font-size: 450%;
+        font-size: 450% !important;
     }
 
     .landing h2 {
-        font-size: 375%;
+        font-size: 375% !important;
     }
 }
 
@@ -127,7 +127,7 @@ nav .container {
 
 
 .questions {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(".images/land banner.gif");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/Owner.png")
     height: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -144,7 +144,7 @@ nav .container {
 @media only screen and (min-width: 768px) {
 
     .questions h2 {
-        font-size: 300%;
+        font-size: 300% !important;
     }
 }
 .questions {
@@ -161,6 +161,7 @@ nav .container {
     padding: 20px;
     text-align: center;
 }
+
 <<<<<<< HEAD
 =======
 >>>>>>> a9a14cde14d2df62b9d67983902409ecaef9b35b
