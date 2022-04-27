@@ -96,6 +96,12 @@ nav .container {
     text-align: center;
 }
 
+.review {
+    background-color: #874C62;
+    opacity: 0.8;
+    text-align: center;
+}
+
 .questions {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(".images/land banner.gif");
     height: 50%;
