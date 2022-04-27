@@ -34,7 +34,7 @@ nav .container {
 
 /* Landing Page */
 
-.landbanner {
+#landing {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(".images/land banner.gif");
     height: 50%;
     background-repeat: no-repeat;
@@ -42,71 +42,68 @@ nav .container {
     max-width: 100%;
 }
 
-.landbanner h1 {
+#landing h1 {
     color: #A7D2CB;
     font-family: 'Lobster', cursive;
     padding: 20px;
-    font-size: 10vw;
     text-align: center;
 }
 
-.landbanner h2 {
+#landing h2 {
     color: #F8E9C2;
     font-family: 'Lobster', cursive;
     padding: 20px;
-    font-size: 7vw;
     text-align: center;
 }
 
-.landbanner a {
-    border: 5px solid #F8E9C2;
-    outline: 0;
-    display: inline-block;
-    padding: 10px 25px;
-    font-family: 'Helvetica', sans-serif;
-    color: #F8E9C2;
-    text-align: center;
-    cursor: pointer;
+@media only screen and (min-width: 768px) {
+    #landing h1 {
+        font-size: 100px;
+    }
+
+    #landing h2 {
+        font-size: 100px;
+    }
 }
 
-.landbanner a:hover {
-    background-color: #F8E9C2;
-    color: #A7D2CB;
-}
-
-.chooseus h1 {
+.choose-head {
     color: #A7D2CB;
     font-family: 'Lobster', cursive;
     padding: 20px;
-    font-size: 7vw;
+    font-size: 66px;
     text-align: center;
 }
 
-.chooseus p {
-    color: #A7D2CB;
-    font-family: 'Helvetica', cursive;
-    padding: 20px;
-    font-size: 3vw;
+.choose-p {
+    font-family: 'Garamond';
+    font-size: 22px;
+    color: #68AEA3;
     text-align: center;
+    text-indent: 50px;
+    line-height: 1.4;
 }
+
+
 
 .showcase {
     background-color: #F2D388;
 }
-
-.custthink h1 {
-    color: #874C62;
-    font-family: 'Lobster', cursive;
+.showcase-text {
+    font-family: 'Garamond';
+    font-size: 22px;
+    color: #B76957;
+    text-align: center;
+    line-height: 1.4;
     padding: 20px;
-    font-size: 7vw;
+}
+.reviews-section {
+    color: #874C62;
+    font-family: 'Garamond';
+    font-size: 66px;;
     text-align: center;
+    line-height: 1.4;
 }
 
-.review {
-    background-color: #874C62;
-    opacity: 0.8;
-    text-align: center;
-}
 
 .questions {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(".images/land banner.gif");
