@@ -3,8 +3,8 @@ body {
     background-color: #F9F9EF;
 }
 
-/* Navbar CSS */
 
+/* Navbar */
 div.container-fluid {
     /* center navbar content */
     width: auto;
@@ -22,7 +22,6 @@ nav .container {
     position: relative;
 }
 
-
 /* company logo is only 1/4 when the screen is big; 1/2 if smaller screens than medium through w-50*/
 
 @media only screen and (min-width: 768px) {
@@ -32,260 +31,7 @@ nav .container {
 }
 
 
-/* Landing Page */
-
-.landbanner {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(".images/land banner.gif");
-    height: 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: 100%;
-}
-
-.landbanner h1 {
-    color: #A7D2CB;
-    font-family: 'Lobster', cursive;
-    padding: 20px;
-    font-size: 10vw;
-    text-align: center;
-}
-
-.landbanner h2 {
-    color: #F8E9C2;
-    font-family: 'Lobster', cursive;
-    padding: 20px;
-    font-size: 7vw;
-    text-align: center;
-}
-
-.landbanner a {
-    border: 5px solid #F8E9C2;
-    outline: 0;
-    display: inline-block;
-    padding: 10px 25px;
-    font-family: 'Helvetica', sans-serif;
-    color: #F8E9C2;
-    text-align: center;
-    cursor: pointer;
-}
-
-.landbanner a:hover {
-    background-color: #F8E9C2;
-    color: #A7D2CB;
-}
-
-.chooseus h1 {
-    color: #A7D2CB;
-    font-family: 'Lobster', cursive;
-    padding: 20px;
-    font-size: 7vw;
-    text-align: center;
-}
-
-.chooseus p {
-    color: #A7D2CB;
-    font-family: 'Helvetica', cursive;
-    padding: 20px;
-    font-size: 3vw;
-    text-align: center;
-}
-
-.showcase {
-    background-color: #F2D388;
-}
-
-.custthink h1 {
-    color: #874C62;
-    font-family: 'Lobster', cursive;
-    padding: 20px;
-    font-size: 7vw;
-    text-align: center;
-}
-
-.review {
-    background-color: #874C62;
-    opacity: 0.8;
-    text-align: center;
-}
-
-.questions {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(".images/land banner.gif");
-    height: 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: 100%;
-}
-
-.questions h2 {
-    color: #F8E9C2;
-    font-family: 'Lobster', cursive;
-    padding: 20px;
-    font-size: 7vw;
-    text-align: center;
-}
-
-
-/* Products Page */
-
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
-.product-tagline {
-    background-color: #a7d2cb;
-}
-
-.product-tagline h1 {
-    /* font-family: 'Lobster', cursive; */
-    color: #874C62;
-    font-size: 400%;
-    text-align: left;
-    padding: 30px;
-}
-
-.product-tagline p {
-    /* font-family: 'Poppins', sans-serif; */
-    line-height: 0.5;
-    font-size: 150%;
-    text-align: left;
-    padding: 30px;
-}
-
-.product-tagline img {
-    float: right;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(".images/land banner.gif");
-    height: 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: 100%;
-}
-
-
-/* About Page */
-
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
-div.about-section {
-    background-color: #f7f5ed;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding: 5%;
-}
-
-.about-section {
-    margin-right: 30%;
-    margin-left: 30%;
-}
-
-.about-section h1 {
-    font-family: 'Lobster', cursive;
-    color: #68AEA3;
-    text-align: center;
-    font-size: 66px;
-}
-
-.about-section .about-p1 {
-    font-family: 'Garamond';
-    font-size: 22px;
-    color: #68AEA3;
-    text-align: justify;
-    text-indent: 50px;
-    line-height: 1.4;
-}
-
-.about-section .about-p2 {
-    font-family: 'Garamond';
-    font-size: 22px;
-    color: #68AEA3;
-    text-align: justify;
-    text-indent: 50px;
-    line-height: 1.4;
-}
-
-div.vision-section {
-    background-color: #ffc12385;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding: 5% 2% 5% 2%;
-}
-
-.vision-section h1 {
-    font-family: 'Lobster', cursive;
-    color: #646460;
-    text-align: center;
-    font-size: 66px;
-}
-
-.vision-section p {
-    font-family: 'Garamond';
-    font-size: 22px;
-    color: #4B4B48;
-    text-align: justify;
-    text-indent: 50px;
-    line-height: 1.4;
-}
-
-
-/* Test */
-
-
-/* @media (min-width: 768px) {
-    
-    .carousel-inner .carousel-item-end.active,
-    .carousel-inner .carousel-item-next {
-      transform: translateX(25%);
-    }
-    
-    .carousel-inner .carousel-item-start.active, 
-    .carousel-inner .carousel-item-prev {
-      transform: translateX(-25%);
-    }
-}
-
-.carousel-inner .carousel-item-end,
-.carousel-inner .carousel-item-start { 
-  transform: translateX(0);
-} */
-
-
-/* FAQs */
-
-.list-group-item p {
-    color: #646460;
-    padding-left: 4%;
-    text-align: justify;
-    font-weight: 400;
-    margin-bottom: 0;
-}
-
-.list-group-item {
-    background-color: transparent;
-    border: none;
-    font-weight: 700;
-}
-
-@media only screen and (min-width: 768px) {
-    #faqs_header img {
-        width: 60% !important;
-    }
-
-    #faqs_main {
-        font-size: 20px;
-    }
-}
-
-
-/* Order Page */
-.obanner-fluid img {
-    max-width: 100%;
-    max-height: auto;
-}
-
-.ofoot-fluid img {
-    max-width: 100%;
-    max-height: auto;
-}
-
-/* Footer CSS */
-
+/* Footer */
 footer a {
     -webkit-transition: .3s all ease;
     -o-transition: .3s all ease;
@@ -382,3 +128,219 @@ footer a:hover {
     color: #68AEA3;
     
 } 
+
+
+/* Landing */
+.landbanner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(".images/land banner.gif");
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+}
+
+.landbanner h1 {
+    color: #A7D2CB;
+    font-family: 'Lobster', cursive;
+    padding: 20px;
+    font-size: 10vw;
+    text-align: center;
+}
+
+.landbanner h2 {
+    color: #F8E9C2;
+    font-family: 'Lobster', cursive;
+    padding: 20px;
+    font-size: 7vw;
+    text-align: center;
+}
+
+.landbanner a {
+    border: 5px solid #F8E9C2;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    font-family: 'Helvetica', sans-serif;
+    color: #F8E9C2;
+    text-align: center;
+    cursor: pointer;
+}
+
+.landbanner a:hover {
+    background-color: #F8E9C2;
+    color: #A7D2CB;
+}
+
+.chooseus h1 {
+    color: #A7D2CB;
+    font-family: 'Lobster', cursive;
+    padding: 20px;
+    font-size: 7vw;
+    text-align: center;
+}
+
+.chooseus p {
+    color: #A7D2CB;
+    font-family: 'Helvetica', cursive;
+    padding: 20px;
+    font-size: 3vw;
+    text-align: center;
+}
+
+.showcase {
+    background-color: #F2D388;
+}
+
+.custthink h1 {
+    color: #874C62;
+    font-family: 'Lobster', cursive;
+    padding: 20px;
+    font-size: 7vw;
+    text-align: center;
+}
+
+.review {
+    background-color: #874C62;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.questions {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(".images/land banner.gif");
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+}
+
+.questions h2 {
+    color: #F8E9C2;
+    font-family: 'Lobster', cursive;
+    padding: 20px;
+    font-size: 7vw;
+    text-align: center;
+}
+
+
+/* About Page */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+div.about-section {
+    background-color: #f7f5ed;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5%;
+}
+
+.about-section {
+    margin-right: 30%;
+    margin-left: 30%;
+}
+
+.about-section h1 {
+    font-family: 'Lobster', cursive;
+    color: #68AEA3;
+    text-align: center;
+    font-size: 66px;
+}
+
+.about-section .about-p1 {
+    font-family: 'Garamond';
+    font-size: 22px;
+    color: #68AEA3;
+    text-align: justify;
+    text-indent: 50px;
+    line-height: 1.4;
+}
+
+.about-section .about-p2 {
+    font-family: 'Garamond';
+    font-size: 22px;
+    color: #68AEA3;
+    text-align: justify;
+    text-indent: 50px;
+    line-height: 1.4;
+}
+
+div.vision-section {
+    background-color: #ffc12385;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5% 2% 5% 2%;
+}
+
+.vision-section h1 {
+    font-family: 'Lobster', cursive;
+    color: #646460;
+    text-align: center;
+    font-size: 66px;
+}
+
+.vision-section p {
+    font-family: 'Garamond';
+    font-size: 22px;
+    color: #4B4B48;
+    text-align: justify;
+    text-indent: 50px;
+    line-height: 1.4;
+}
+
+/* Products Page */
+#products_header {
+    background-color: #A7D2CB;
+}
+
+@media only screen and (min-width: 768px) {
+    .product-headers {
+        width: 70% !important;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .product-headers {
+        width: 45% !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .product-headers {
+        width: 90% !important;
+    }
+}
+
+/* FAQs */
+.list-group-item p {
+    color: #646460;
+    padding-left: 4%;
+    text-align: justify;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.list-group-item {
+    background-color: transparent;
+    border: none;
+    font-weight: 700;
+}
+
+@media only screen and (min-width: 768px) {
+    #faqs_header img {
+        width: 60% !important;
+    }
+
+    #faqs_main {
+        font-size: 20px;
+    }
+} 
+
+
+/* Order Page */
+.obanner-fluid img {
+    max-width: 100%;
+    max-height: auto;
+}
+
+.ofoot-fluid img {
+    max-width: 100%;
+    max-height: auto;
+}
