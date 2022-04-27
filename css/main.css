@@ -1,7 +1,5 @@
 /* Default Background Color*/
-body {
-    background-color: #F9F9EF;
-}
+body {background-color: #F9F9EF}
 
 
 /* Navbar */
@@ -23,7 +21,6 @@ nav .container {
 }
 
 /* company logo is only 1/4 when the screen is big; 1/2 if smaller screens than medium through w-50*/
-
 @media only screen and (min-width: 768px) {
     .navbar-brand {
         width: 25% !important;
@@ -101,37 +98,130 @@ footer a:hover {
 }
 
 .footer-14398 .line {
-    border-top: 1px solid rgba(255, 255, 255, 0.2); 
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .footer-14398 ul {
     list-style-type: none;
-    padding-left: 5px; 
+    padding-left: 5px;
 }
 
 .footer-14398 ul li {
     margin-bottom: 10px;
-} 
-
-/* Landing */
-.labt h1 {
-    text-align: center;
-    font-size: 5vw;
-    color: #68AEA3;
 }
-.labt table, td{
-    text-align: left;
-    margin-left: 15px;
-    margin-right: 15px;
-    padding: 10px;
-    font-size: 1.5vw;
+
+
+/* Landing Page */
+.landing {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("land banner.gif");
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 80%;
+}
+
+.landing h1 {
+    color: #A7D2CB;
+    font-family: 'Lobster', cursive;
+    padding: 20px;
+    text-align: center;
+}
+
+.landing h2 {
+    color: #F8E9C2;
+    font-family: 'Lobster', cursive;
+    padding: 20px;
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .landing h1 {
+        font-size: 450%;
+    }
+
+    .landing h2 {
+        font-size: 375%;
+    }
+}
+
+.choose-head {
+    color: #A7D2CB;
+    font-family: 'Lobster', cursive;
+    padding: 20px;
+    font-size: 66px;
+    text-align: center;
+}
+
+.choose-p {
+    font-family: 'Garamond';
+    font-size: 22px;
     color: #68AEA3;
-    
-} 
+    text-align: center;
+    text-indent: 50px;
+    line-height: 1.4;
+}
+
+.showcase {
+    background-color: #F2D388;
+}
+
+.showcase-text {
+    font-family: 'Garamond';
+    font-size: 22px;
+    color: #B76957;
+    text-align: center;
+    line-height: 1.4;
+    padding: 20px;
+}
+
+.reviews-section {
+    color: #874C62;
+    font-family: 'Garamond';
+    font-size: 66px;
+    ;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.review-grid h1 {
+    color: #874C62;
+    font-family: 'Garamond';
+    font-size: 30px;;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.review-grid p {
+    color: #874C62;
+    font-family: 'Garamond';
+    font-size: 20px;;
+    text-align: center;
+    line-height: 1.4;
+}
 
 
-/* Landing */
-.landbanner {
+.questions {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(".images/land banner.gif");
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 80%;
+}
+
+.questions h2 {
+    color: #F8E9C2;
+    font-family: 'Lobster', cursive;
+    padding: 20px;
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .questions h2 {
+        font-size: 300%;
+    }
+}
+.questions {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(".images/land banner.gif");
     height: 50%;
     background-repeat: no-repeat;
@@ -139,43 +229,10 @@ footer a:hover {
     max-width: 100%;
 }
 
-.landbanner h1 {
-    color: #A7D2CB;
-    font-family: 'Lobster', cursive;
-    padding: 20px;
-    font-size: 10vw;
-    text-align: center;
-}
-
-.landbanner h2 {
+.questions h2 {
     color: #F8E9C2;
     font-family: 'Lobster', cursive;
     padding: 20px;
-    font-size: 7vw;
-    text-align: center;
-}
-
-.landbanner a {
-    border: 5px solid #F8E9C2;
-    outline: 0;
-    display: inline-block;
-    padding: 10px 25px;
-    font-family: 'Helvetica', sans-serif;
-    color: #F8E9C2;
-    text-align: center;
-    cursor: pointer;
-}
-
-.landbanner a:hover {
-    background-color: #F8E9C2;
-    color: #A7D2CB;
-}
-
-.chooseus h1 {
-    color: #A7D2CB;
-    font-family: 'Lobster', cursive;
-    padding: 20px;
-    font-size: 7vw;
     text-align: center;
 }
 
@@ -285,6 +342,7 @@ div.vision-section {
     line-height: 1.4;
 }
 
+
 /* Products Page */
 #products_header {
     background-color: #A7D2CB;
@@ -308,6 +366,7 @@ div.vision-section {
     }
 }
 
+
 /* FAQs */
 .list-group-item p {
     color: #646460;
@@ -327,11 +386,10 @@ div.vision-section {
     #faqs_header img {
         width: 60% !important;
     }
-
     #faqs_main {
         font-size: 20px;
     }
-} 
+}
 
 
 /* Order Page */
