@@ -27,6 +27,261 @@ nav .container {
     }
 }
 
+
+/* Landing Page */
+
+.landing {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("land banner.gif");
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 80%;
+}
+
+.landing h1 {
+    color: #A7D2CB;
+    font-family: 'Lobster', cursive;
+    padding: 20px;
+    text-align: center;
+}
+
+.landing h2 {
+    color: #F8E9C2;
+    font-family: 'Lobster', cursive;
+    padding: 20px;
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .landing h1 {
+        font-size: 450% !important;
+    }
+
+    .landing h2 {
+        font-size: 375% !important;
+    }
+}
+
+.choose-head {
+    color: #A7D2CB;
+    font-family: 'Lobster', cursive;
+    padding: 20px;
+    font-size: 66px;
+    text-align: center;
+}
+
+.choose-p {
+    font-family: 'Garamond';
+    font-size: 22px;
+    color: #68AEA3;
+    text-align: center;
+    text-indent: 50px;
+    line-height: 1.4;
+}
+
+.showcase {
+    background-color: #F2D388;
+}
+
+.showcase-text {
+    font-family: 'Garamond';
+    font-size: 22px;
+    color: #B76957;
+    text-align: center;
+    line-height: 1.4;
+    padding: 20px;
+}
+
+.reviews-section {
+    color: #874C62;
+    font-family: 'Garamond';
+    font-size: 66px;
+    ;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.review-grid h1 {
+    color: #874C62;
+    font-family: 'Garamond';
+    font-size: 30px;;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.review-grid p {
+    color: #874C62;
+    font-family: 'Garamond';
+    font-size: 20px;;
+    text-align: center;
+    line-height: 1.4;
+}
+
+
+.questions {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/Owner.png");
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 80%;
+
+}
+.questions h2 {
+    color: #F8E9C2;
+    font-family: 'Lobster', cursive;
+    padding: 20px;
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .questions h2 {
+        font-size: 300% !important;
+    }
+}
+.questions {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(".images/land banner.gif");
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+}
+
+.questions h2 {
+    color: #F8E9C2;
+    font-family: 'Lobster', cursive;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Products Page */
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+.product-tagline {
+    background-color: #a7d2cb;
+}
+
+.product-tagline h1 {
+    /* font-family: 'Lobster', cursive; */
+    color: #874C62;
+    font-size: 400%;
+    text-align: left;
+    padding: 30px;
+}
+
+.product-tagline p {
+    /* font-family: 'Poppins', sans-serif; */
+    line-height: 0.5;
+    font-size: 150%;
+    text-align: left;
+    padding: 30px;
+}
+
+.product-tagline img {
+    float: right;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(".images/land banner.gif");
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+}
+
+
+/* About Page */
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@media only screen and (min-width: 768px) {
+    #middle-header h1 {
+        width: 60% !important;
+        text-align: center;
+        font-size: 66px;
+    }
+    #about-p {
+        font-size: 20px;
+        line-height: 1.4;
+    }
+    #vision-p {}
+    #owner-p {}
+}
+
+.about-section .about-p1 {
+    font-size: 22px;
+    text-align: justify;
+    text-indent: 50px;
+    line-height: 1.4;
+}
+
+.about-section .about-p2 {
+    font-family: 'Garamond';
+    font-size: 22px;
+    color: #68AEA3;
+    text-align: justify;
+    text-indent: 50px;
+    line-height: 1.4;
+}
+
+.vision-section p {
+    font-family: 'Garamond';
+    font-size: 22px;
+    color: #4B4B48;
+    text-align: justify;
+    text-indent: 50px;
+    line-height: 1.4;
+}
+
+
+/* Test */
+
+
+/* @media (min-width: 768px) {
+    
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(25%);
+    }
+    
+    .carousel-inner .carousel-item-start.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-25%);
+    }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start { 
+  transform: translateX(0);
+} */
+
+
+/* FAQs */
+
+.list-group-item p {
+    color: #646460;
+    padding-left: 4%;
+    text-align: justify;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.list-group-item {
+    background-color: transparent;
+    border: none;
+    font-weight: 700;
+}
+
+@media only screen and (min-width: 768px) {
+    #faqs_header img {
+        width: 60% !important;
+    }
+    #faqs_main {
+        font-size: 20px;
+    }
+}
+
+
+/* Order Page */
+
 /* Form */
 .obanner-fluid img {
     max-width: 100%;
