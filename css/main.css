@@ -34,22 +34,22 @@ nav .container {
 
 /* Landing Page */
 
-#landing {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(".images/land banner.gif");
-    height: 50%;
+.landing {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("land banner.gif");
+    height: auto;
     background-repeat: no-repeat;
     background-size: cover;
-    max-width: 100%;
+    max-width: 80%;
 }
 
-#landing h1 {
+.landing h1 {
     color: #A7D2CB;
     font-family: 'Lobster', cursive;
     padding: 20px;
     text-align: center;
 }
 
-#landing h2 {
+.landing h2 {
     color: #F8E9C2;
     font-family: 'Lobster', cursive;
     padding: 20px;
@@ -57,12 +57,12 @@ nav .container {
 }
 
 @media only screen and (min-width: 768px) {
-    #landing h1 {
-        font-size: 100px;
+    .landing h1 {
+        font-size: 450%;
     }
 
-    #landing h2 {
-        font-size: 100px;
+    .landing h2 {
+        font-size: 375%;
     }
 }
 
@@ -82,8 +82,6 @@ nav .container {
     text-indent: 50px;
     line-height: 1.4;
 }
-
-
 
 .showcase {
     background-color: #F2D388;
@@ -121,15 +119,15 @@ nav .container {
 }
 
 
-#questions {
+.questions {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(".images/land banner.gif");
     height: 50%;
     background-repeat: no-repeat;
     background-size: cover;
-    max-width: 100%;
+    max-width: 80%;
 }
 }
-#questions h2 {
+.questions h2 {
     color: #F8E9C2;
     font-family: 'Lobster', cursive;
     padding: 20px;
@@ -138,26 +136,11 @@ nav .container {
 
 @media only screen and (min-width: 768px) {
 
-    #landing h2 {
+    .questions h2 {
         font-size: 100px;
     }
 }
 
-.questions {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(".images/land banner.gif");
-    height: 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: 100%;
-}
-
-.questions h2 {
-    color: #F8E9C2;
-    font-family: 'Lobster', cursive;
-    padding: 20px;
-    font-size: 7vw;
-    text-align: center;
-}
 
 
 /* Products Page */
