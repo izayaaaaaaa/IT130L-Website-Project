@@ -1,12 +1,8 @@
 /* Default Background Color*/
-
-body {
-    background-color: #F9F9EF;
-}
+body {background-color: #F9F9EF}
 
 
-/* Navbar CSS */
-
+/* Navbar */
 div.container-fluid {
     /* center navbar content */
     width: auto;
@@ -24,15 +20,14 @@ nav .container {
     position: relative;
 }
 
-
 /* company logo is only 1/4 when the screen is big; 1/2 if smaller screens than medium through w-50*/
-
 @media only screen and (min-width: 768px) {
     .navbar-brand {
         width: 25% !important;
     }
 }
 
+<<<<<<< HEAD
 
 /* Landing Page */
 
@@ -297,6 +292,9 @@ nav .container {
 
 /* Order Page */
 
+=======
+/* Form */
+>>>>>>> e898877ddceee1a2cadf4b0eff0326a1c8513c63
 .obanner-fluid img {
     max-width: 100%;
     max-height: auto;
@@ -307,9 +305,188 @@ nav .container {
     max-height: auto;
 }
 
+.form1 {
+    margin: 20px 10%;
+}
 
-/* Footer CSS */
+@import url('https://fonts.googleapis.com/css2?family=Arapey&family=Lato:wght@300&family=Playfair+Display:wght@500&family=Poppins:wght@300&display=swap');
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.wrapper{
+  max-width: 500px;
+  width: 100%;
+  background: #fff;
+  margin: 20px auto;
+  box-shadow: 1px 1px 2px rgba(0,0,0,0.125);
+  padding: 30px;
+}
+
+.wrapper .title{
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  text-align: center;
+  color: black;
+  text-transform: uppercase;
+
+}
+
+.wrapper .form{
+  width: 100%;
+}
+
+.wrapper .form .inputfield{
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.wrapper .form .inputfield label{
+   width: 200px;
+   color: #757575;
+   margin-right: 10px;
+  font-size: 14px;
+}
+
+.wrapper .form .inputfield .input,
+.wrapper .form .inputfield .textarea{
+  width: 100%;
+  outline: none;
+  border: 1px solid #d5dbd9;
+  font-size: 15px;
+  padding: 8px 10px;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+.wrapper .form .inputfield .textarea{
+  width: 100%;
+  height: 125px;
+  resize: none;
+}
+
+.wrapper .form .inputfield .custom_select{
+  position: relative;
+  width: 100%;
+  height: 37px;
+}
+
+.wrapper .form .inputfield .custom_select:before{
+  content: "";
+  position: absolute;
+  top: 12px;
+  right: 10px;
+  border: 8px solid;
+  border-color: #d5dbd9 transparent transparent transparent;
+  pointer-events: none;
+}
+
+.wrapper .form .inputfield .custom_select select{
+  -webkit-appearance: none;
+  -moz-appearance:   none;
+  appearance:        none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  border: 0px;
+  padding: 8px 10px;
+  font-size: 15px;
+  border: 1px solid #d5dbd9;
+  border-radius: 3px;
+}
+
+
+.wrapper .form .inputfield .input:focus,
+.wrapper .form .inputfield .textarea:focus,
+.wrapper .form .inputfield .custom_select select:focus{
+  border: 1px solid #874C62;
+}
+
+.wrapper .form .inputfield p{
+   font-size: 14px;
+   color: #757575;
+}
+.wrapper .form .inputfield .check{
+  width: 15px;
+  height: 15px;
+  position: relative;
+  display: block;
+  cursor: pointer;
+}
+.wrapper .form .inputfield .check input[type="checkbox"]{
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+.wrapper .form .inputfield .check .checkmark{
+  width: 15px;
+  height: 15px;
+  border: 1px solid #874C62;
+  display: block;
+  position: relative;
+}
+.wrapper .form .inputfield .check .checkmark:before{
+  content: "";
+  position: absolute;
+  top: 1px;
+  left: 2px;
+  width: 5px;
+  height: 2px;
+  border: 2px solid;
+  border-color: transparent transparent #fff #fff;
+  transform: rotate(-45deg);
+  display: none;
+}
+.wrapper .form .inputfield .check input[type="checkbox"]:checked ~ .checkmark{
+  background: #874C62;
+}
+
+.wrapper .form .inputfield .check input[type="checkbox"]:checked ~ .checkmark:before{
+  display: block;
+}
+
+.wrapper .form .inputfield .btn{
+  width: 100%;
+   padding: 8px 10px;
+  font-size: 15px; 
+  border: 0px;
+  background:  #874C62;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+  outline: none;
+}
+
+.wrapper .form .inputfield .btn:hover{
+  background: #874C62;
+}
+
+.wrapper .form .inputfield:last-child{
+  margin-bottom: 0;
+}
+
+@media (max-width:420px) {
+  .wrapper .form .inputfield{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .wrapper .form .inputfield label{
+    margin-bottom: 5px;
+  }
+  .wrapper .form .inputfield.terms{
+    flex-direction: row;
+  }
+}
+
+
+/* Footer */
 footer a {
     -webkit-transition: .3s all ease;
     -o-transition: .3s all ease;
@@ -392,20 +569,294 @@ footer a:hover {
 }
 
 
-/* Landing */
-
-.labt h1 {
-    text-align: center;
-    font-size: 5vw;
-    color: #68AEA3;
+/* Landing Page */
+.landing {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("land banner.gif");
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 80%;
 }
 
-.labt table,
-td {
-    text-align: left;
-    margin-left: 15px;
-    margin-right: 15px;
-    padding: 10px;
-    font-size: 1.5vw;
+.landing h1 {
+    color: #A7D2CB;
+    font-family: 'Lobster', cursive;
+    padding: 20px;
+    text-align: center;
+}
+
+.landing h2 {
+    color: #F8E9C2;
+    font-family: 'Lobster', cursive;
+    padding: 20px;
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .landing h1 {
+        font-size: 450%;
+    }
+
+    .landing h2 {
+        font-size: 375%;
+    }
+}
+
+.choose-head {
+    color: #A7D2CB;
+    font-family: 'Lobster', cursive;
+    padding: 20px;
+    font-size: 66px;
+    text-align: center;
+}
+
+.choose-p {
+    font-family: 'Garamond';
+    font-size: 22px;
     color: #68AEA3;
+    text-align: center;
+    text-indent: 50px;
+    line-height: 1.4;
+}
+
+.showcase {
+    background-color: #F2D388;
+}
+
+.showcase-text {
+    font-family: 'Garamond';
+    font-size: 22px;
+    color: #B76957;
+    text-align: center;
+    line-height: 1.4;
+    padding: 20px;
+}
+
+.reviews-section {
+    color: #874C62;
+    font-family: 'Garamond';
+    font-size: 66px;
+    ;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.review-grid h1 {
+    color: #874C62;
+    font-family: 'Garamond';
+    font-size: 30px;;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.review-grid p {
+    color: #874C62;
+    font-family: 'Garamond';
+    font-size: 20px;;
+    text-align: center;
+    line-height: 1.4;
+}
+
+
+.questions {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(".images/land banner.gif");
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 80%;
+}
+
+.questions h2 {
+    color: #F8E9C2;
+    font-family: 'Lobster', cursive;
+    padding: 20px;
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .questions h2 {
+        font-size: 300%;
+    }
+}
+.questions {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(".images/land banner.gif");
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+}
+
+.questions h2 {
+    color: #F8E9C2;
+    font-family: 'Lobster', cursive;
+    padding: 20px;
+    text-align: center;
+}
+
+.chooseus p {
+    color: #A7D2CB;
+    font-family: 'Helvetica', cursive;
+    padding: 20px;
+    font-size: 3vw;
+    text-align: center;
+}
+
+.showcase {
+    background-color: #F2D388;
+}
+
+.custthink h1 {
+    color: #874C62;
+    font-family: 'Lobster', cursive;
+    padding: 20px;
+    font-size: 7vw;
+    text-align: center;
+}
+
+.review {
+    background-color: #874C62;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.questions {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(".images/land banner.gif");
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+}
+
+.questions h2 {
+    color: #F8E9C2;
+    font-family: 'Lobster', cursive;
+    padding: 20px;
+    font-size: 7vw;
+    text-align: center;
+}
+
+
+/* About Page */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+div.about-section {
+    background-color: #f7f5ed;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5%;
+}
+
+.about-section {
+    margin-right: 30%;
+    margin-left: 30%;
+}
+
+.about-section h1 {
+    font-family: 'Lobster', cursive;
+    color: #68AEA3;
+    text-align: center;
+    font-size: 66px;
+}
+
+.about-section .about-p1 {
+    font-family: 'Garamond';
+    font-size: 22px;
+    color: #68AEA3;
+    text-align: justify;
+    text-indent: 50px;
+    line-height: 1.4;
+}
+
+.about-section .about-p2 {
+    font-family: 'Garamond';
+    font-size: 22px;
+    color: #68AEA3;
+    text-align: justify;
+    text-indent: 50px;
+    line-height: 1.4;
+}
+
+div.vision-section {
+    background-color: #ffc12385;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5% 2% 5% 2%;
+}
+
+.vision-section h1 {
+    font-family: 'Lobster', cursive;
+    color: #646460;
+    text-align: center;
+    font-size: 66px;
+}
+
+.vision-section p {
+    font-family: 'Garamond';
+    font-size: 22px;
+    color: #4B4B48;
+    text-align: justify;
+    text-indent: 50px;
+    line-height: 1.4;
+}
+
+
+/* Products Page */
+#products_header {
+    background-color: #A7D2CB;
+}
+
+@media only screen and (min-width: 768px) {
+    .product-headers {
+        width: 70% !important;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .product-headers {
+        width: 45% !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .product-headers {
+        width: 90% !important;
+    }
+}
+
+
+/* FAQs */
+.list-group-item p {
+    color: #646460;
+    padding-left: 4%;
+    text-align: justify;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.list-group-item {
+    background-color: transparent;
+    border: none;
+    font-weight: 700;
+}
+
+@media only screen and (min-width: 768px) {
+    #faqs_header img {
+        width: 60% !important;
+    }
+    #faqs_main {
+        font-size: 20px;
+    }
+}
+
+
+/* Order Page */
+.obanner-fluid img {
+    max-width: 100%;
+    max-height: auto;
+}
+
+.ofoot-fluid img {
+    max-width: 100%;
+    max-height: auto;
 }
