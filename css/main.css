@@ -96,8 +96,12 @@ nav .container {
     line-height: 1.4;
     padding: 20px;
 }
+<<<<<<< HEAD
 
 .reviews-section {
+=======
+.reviews-section h1 {
+>>>>>>> a9a14cde14d2df62b9d67983902409ecaef9b35b
     color: #874C62;
     font-family: 'Garamond';
     font-size: 66px;
@@ -106,6 +110,48 @@ nav .container {
     line-height: 1.4;
 }
 
+<<<<<<< HEAD
+=======
+.review-grid h1 {
+    color: #874C62;
+    font-family: 'Garamond';
+    font-size: 30px;;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.review-grid p {
+    color: #874C62;
+    font-family: 'Garamond';
+    font-size: 20px;;
+    text-align: center;
+    line-height: 1.4;
+}
+
+
+#questions {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(".images/land banner.gif");
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+}
+}
+#questions h2 {
+    color: #F8E9C2;
+    font-family: 'Lobster', cursive;
+    padding: 20px;
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+
+    #landing h2 {
+        font-size: 100px;
+    }
+}
+
+>>>>>>> a9a14cde14d2df62b9d67983902409ecaef9b35b
 .questions {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(".images/land banner.gif");
     height: 50%;
