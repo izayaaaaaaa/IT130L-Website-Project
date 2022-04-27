@@ -234,7 +234,15 @@ div.about-section {
 } 
 
 /* Order Page */
+.obanner-fluid img {
+    max-width: 100%;
+    max-height: auto;
+}
 
+.ofoot-fluid img {
+    max-width: 100%;
+    max-height: auto;
+}
 
 
 /* Footer CSS */
