@@ -215,6 +215,11 @@ nav .container {
     max-width: 100%;
 }
 
+#products_content a {
+    text-decoration: none;
+    color: #6c757d;
+}
+
 
 /* FAQs */
 .list-group-item p {
