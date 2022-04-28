@@ -24,6 +24,14 @@ nav .container {
     position: relative;
 }
 
+.dropdown-menu {
+    background-color: #874C62;
+}
+
+.dropdown-item {
+    color: white;
+}
+
 
 /* company logo is only 1/4 when the screen is big; 1/2 if smaller screens than medium through w-50*/
 
