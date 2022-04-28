@@ -57,11 +57,9 @@
     </nav>
 
     <!--Order Banner-->
-    <div class="obanner-fluid">
-        <center>
-            <img src="./images/forms banner.png">
-        </center>
-    </div>
+    <div class="row justify-content-center" id="order_header">
+      <img class="img-fluid px-md-5 px-2" src="./images/forms banner.png" alt="...">
+  </div>
 
     <!--Form-->
     <!--Order Form-->
@@ -71,9 +69,9 @@
           <td>
             <div class="wrapper">
               <div class="title">
-                ORDER NOW!
+                  <h2>ORDER NOW!</h2>
               </div>
-              <div class="form">
+              <div class="form" method="post" action="itzmejersonpega@gmail.com">
                  <div class="inputfield">
                     <label>First Name</label>
                     <input type="text" class="input">
@@ -95,15 +93,15 @@
                     <input type="text" class="input">
                  </div>
                  <center>
-                    <h6>----  SELECT YOUR DESIRED FOOD ----</h6>
+                    <h6 style="font-family: 'hel, sans-serif';">----  SELECT YOUR DESIRED FOOD ----</h6>
                  </center>
                  <div class="inputfield">
                   <label>Samgyupsal</label>
                   <div class="custom_select">
                     <select>
                       <option value="">Select</option>
-                      <option value="male">Male</option>
-                      <option value="female">Female</option>
+                      <option value="">Beef Samqyup</option>
+                      <option value="">Pork Belly Samgyup</option>
                     </select>
                   </div>
                </div> 
@@ -112,8 +110,17 @@
                 <div class="custom_select">
                   <select>
                     <option value="">Select</option>
-                    <option value="male">Male</option>
-                    <option value="female">Female</option>
+                    <option value="">Crabstick</option>
+                    <option value="">Enoki Mushroom</option>
+                    <option value="">Fish Cake</option>
+                    <option value="">Kimchi</option>
+                    <option value="">Korean Sausage</option>
+                    <option value="">Lettuce</option>
+                    <option value="">Mozarella Cheese</option>
+                    <option value="">Nori</option>
+                    <option value="">Paste</option>
+                    <option value="">Pickled Radish</option>
+                    <option value="">Shabu-shabu Balls for Soup</option>
                   </select>
                 </div>
              </div> 
@@ -121,9 +128,8 @@
               <label>Beverages</label>
               <div class="custom_select">
                 <select>
-                  <option value="">Select</option>
-                  <option value="male">Male</option>
-                  <option value="female">Female</option>
+                <option value="">Select</option>
+                  <option value="">Soju</option>
                 </select>
               </div>
            </div> 
@@ -132,8 +138,14 @@
               <div class="custom_select">
                 <select>
                   <option value="">Select</option>
-                  <option value="male">Male</option>
-                  <option value="female">Female</option>
+                  <option value="">Big Nori Sheet</option>
+                  <option value="">Butane Gas</option>
+                  <option value="">Chopsticks</option>
+                  <option value="">Jin Ramen</option>
+                  <option value="">Korean Luncheon Meat</option>
+                  <option value="">Korean Soft Tofu</option>
+                  <option value="">Red Pepper Powder/Flakes</option>
+                  <option value="">Samyang</option>
                 </select>
               </div>
             </div> 
@@ -143,21 +155,108 @@
               </div>
           </div>	
           </td>
-        
-          <td>
-            <img src="images/formsidebanner.png" width="500px" height="670px">
-          </td>
         </tr>
         </table>
         </center>
     
 
     <!--Feedback-->
-    <div class="ofoot-fluid">
-        <center>
-            <img src="./images/feedback image.png">
-        </center>
-    </div>
+    <div class="row justify-content-center" id="order_header">
+      <img class="img-fluid px-md-5 px-2" src="./images/feedback image.png" alt="...">
+  </div>
+
+
+    <center>
+        <table>
+            <tr>
+                <td>
+                    <td>
+                        <div class="wrapper">
+                          <div class="title">
+                              <h2>QUICK SURVEY!</h2>
+                          </div>
+                          <div class="form">
+                             <div class="inputfield">
+                                <label>First Name</label>
+                                <input type="text" class="input">
+                             </div>  
+                              <div class="inputfield">
+                                <label>Last Name</label>
+                                <input type="text" class="input">
+                             </div>  
+                             <div class="inputfield">
+                                <label>Email Address</label>
+                                <input type="password" class="input">
+                             </div>  
+                            <div class="inputfield">
+                                <label>Phone Number</label>
+                                <input type="password" class="input">
+                             </div>    
+                            <div class="inputfield">
+                                <label>Suggestions</label>
+                                <input type="text" class="input">
+                             </div>
+                             <center>
+                                <h6>----  SELECT YOUR ANSWER ----</h6>
+                             </center>
+                             <div class="inputfield">
+                              <label>Quality of Service</label>
+                              <div class="custom_select">
+                                <select>
+                                  <option value="">Select</option>
+                                  <option value="">Excellent</option>
+                                  <option value="">Wonderful</option>
+                                  <option value="">Good</option>
+                                  <option value="">Awful</option>
+                                </select>
+                              </div>
+                           </div> 
+                           <div class="inputfield">
+                            <label>Quality of Foods</label>
+                            <div class="custom_select">
+                              <select>
+                                <option value="">Select</option>
+                                <option value="">Excellent</option>
+                                <option value="">Wonderful</option>
+                                <option value="">Good</option>
+                                <option value="">Awful</option>
+                              </select>
+                            </div>
+                         </div> 
+                         <div class="inputfield">
+                          <label>Quality of Environment</label>
+                          <div class="custom_select">
+                            <select>
+                                <option value="">Select</option>
+                                <option value="">Excellent</option>
+                                <option value="">Wonderful</option>
+                                <option value="">Good</option>
+                                <option value="">Awful</option>
+                            </select>
+                          </div>
+                       </div> 
+                        <div class="inputfield">
+                          <label>Have you Enjoy?</label>
+                          <div class="custom_select">
+                            <select>
+                              <option value="">Select</option>
+                              <option value="">Ofcourse!</option>
+                              <option value="">Yes</option>
+                              <option value="">A little</option>
+                              <option value="">No, sorry</option>   
+                            </select>
+                          </div>
+                        </div> 
+                            <div class="inputfield">
+                              <input type="submit" value="Submit" class="btn">
+                            </div>
+                          </div>
+                      </div>	
+                      </td>
+                </td>
+            </tr>
+        </table>
+    </center>
 
 
     <!-- footer -->
@@ -195,7 +294,7 @@
                     <div class="line"></div>
                 </div>
                 <div class="col-md-9">
-                    <p>Developed by: Francyn Macadangdang, Franz Eleccion, Jerson Dizon </p>
+                    <p>Developed by: Francyn Macadangdang, Franz Eleccion, Jerson Dizon, Richard Calanoc </p>
                 </div>
                 <div class="col-md-3">
                     <ul class="list-unstyled social ms-md-3">
